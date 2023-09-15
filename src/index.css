@@ -274,84 +274,84 @@ html {
 
 @media (max-width: 940px) {
     .card {
-        position: relative;
-        width: 226px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 40px;
+        position: relative !important;
+        width: 226px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-top: 40px !important;
     }
 
     .card2 {
-        position: relative;
-        flex: 0 0 auto;
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 50px;
+        position: relative !important;
+        flex: 0 0 auto !important;
+        width: 90% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-top: 50px !important;
     }
 
     .btn2 {
-        border-radius: 0;
-        font-size: 13px;
-        font-weight: 400;
-        border-bottom-left-radius: 15px;
-        border-top-right-radius: 15px;
+        border-radius: 0 !important;
+        font-size: 13px !important;
+        font-weight: 400 !important;
+        border-bottom-left-radius: 15px !important;
+        border-top-right-radius: 15px !important;
     }
 
     .il {
-        align-self: center;
-        padding-left: 20px;
-        color: #103b29;
+        align-self: center !important;
+        padding-left: 20px !important;
+        color: #103b29 !important;
     }
 }
 
 @media (max-width: 768px) {
     .card-container {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr) !important;
         
     }
     .w-g{
         display: none;
     }
     .bg-n {
-        background-color: #fff;
-        color: #103b29;
-        border-radius: 3px;
-        line-height: 1.5;
-        border: 1px solid #103b29;
-        font-family: emirates-medium;
-        align-items: flex-start;
-        position: absolute;
-        top: -6px;
-        right: -6px;
-        padding-left: 3px;
-        padding-right: 3px;
-        padding-bottom: 0px;
-        align-self: center;
-        line-height: 1;
-        z-index: 2;
-        width: auto;
+        background-color: #fff !important;
+        color: #103b29 !important;
+        border-radius: 3px !important;
+        line-height: 1.5 !important;
+        border: 1px solid #103b29 !important;
+        font-family: emirates-medium !important;
+        align-items: flex-start !important;
+        position: absolute !important;
+        top: -6px !important;
+        right: -6px !important;
+        padding-left: 3px !important;
+        padding-right: 3px !important;
+        padding-bottom: 0px !important;
+        align-self: center !important;
+        line-height: 1 !important;
+        z-index: 2 !important;
+        width: auto !important;
     }
     .auth-1 {
-        font-size: 1.125rem;
-        height: 2.75%;
-        height: 2.75vw;
-        max-height: 55px;
-        min-height: 50px;
+        font-size: 1.125rem !important;
+        height: 2.75% !important;
+        height: 2.75vw !important;
+        max-height: 55px !important;
+        min-height: 50px !important;
         color: #fff!important;
         background-color: #103b29 !important;
         border-color: #103b29 !important;
-        width: 100%;
-        margin: 10px 20px 10px 20px;
+        width: 100% !important;
+        margin: 10px 20px 10px 20px !important;
     }
     .auth {
-        margin-top: 30%;
+        margin-top: 30% !important;
     }
 }
 
 @media (min-width: 768px) {
     .card-container {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(4, 1fr) !important;
         
     }
     .w-g1{
