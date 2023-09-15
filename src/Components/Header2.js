@@ -26,7 +26,7 @@ const Header2 = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const { cart } = useContext(CartContext);
   return (
-    <header className="bg-white">
+    <header className="bg-white sticky top-0">
       <nav className="mx-auto px-10 flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className='md:block hidden'>
           <div className="flex lg:flex-1">
