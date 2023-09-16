@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Login = () => {
     return (
@@ -7,16 +8,18 @@ const Login = () => {
                 تسجيل الدخول
             </div>
             <div className=' flex justify-center items-center'>
-                <div className='auth-1 flex justify-center items-center'>
+               
+                <div className='auth-1 flex justify-center items-center'> <Link to="lognumber">
                     <i class="fa-solid fa-mobile-screen-button" style={{paddingLeft:"15px"}}></i>
                     عن طريق رقم الجوال
-                </div>
+                </Link></div>
             </div>
             <div className=' flex justify-center items-center'>
                 <div className='auth-1 flex justify-center items-center'>
+                <Link to="loginem">
                 <i class="fa-regular fa-envelope" style={{paddingLeft:"15px"}}></i>
                 طريق البريد الإلكتروني
-            </div></div>
+            </Link></div></div>
         </div>
     )
 }
