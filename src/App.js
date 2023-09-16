@@ -11,6 +11,8 @@ import Mists from "./Components/Shuja-Hair-Mists";
 import Shuja from "./Components/Shuja";
 import Cart from "./Components/Cart";
 import { CartProvider } from "./Components/context/ShoppingCartContext";
+import LoginNumber from "./Components/auth/LoginNumber";
+import LoginEm from "./Components/auth/LoginEm";
 function App() {
   return (
     <div className="App">
@@ -26,6 +28,8 @@ function App() {
       <Route path='/login' element={<Login/>} />
       <Route path='/shuja-hair-mists' element={<Mists/>} />
       <Route path='/shuja-collection' element={<Shuja/>} />
+      <Route path='/login/lognumber' element={<LoginNumber/>} />
+      <Route path='/login/loginem' element={<LoginEm/>} />
       </Routes>
       <Footer/>
       </BrowserRouter>
