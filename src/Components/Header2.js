@@ -136,13 +136,13 @@ const Header2 = () => {
                   الرئيسية
                 </a>
                 <a
-                  href="#"
+                  href="shuja-hair-mists"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Shuja Hair Mists
                 </a>
                 <a
-                  href="#"
+                  href="shuja-collection"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Shuja Collection
