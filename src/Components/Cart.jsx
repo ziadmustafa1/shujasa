@@ -28,7 +28,7 @@ const Cart = () => {
                         {item.name}
                       </h3>
                       <p className="ml-4 flex justify-evenly text-red-600 mt-4 mb-4 md:mt-0 md:mb-0">{item.price}</p>
-                      <button onClick={() => removeFromCart(item)} className="text-gray-500 hover:text-red-600 mr-28 md:mr-0"><i class="fa-regular fa-trash-can"></i> </button>
+                      <button onClick={() => removeFromCart(item)} className="text-gray-500 hover:text-red-600 mr-28 md:mr-0"><i className="fa-regular fa-trash-can"></i> </button>
                     </div>
                   </div>
                 </div>

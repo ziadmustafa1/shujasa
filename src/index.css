@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @import url(https://db.onlinewebfonts.com/c/606e56d34eedce85533c0e586b43141f?family=Emirates+Medium);
 
 html {

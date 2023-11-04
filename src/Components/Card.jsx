@@ -1,7 +1,8 @@
+/* eslint-disable react/no-unknown-property */
+/* eslint-disable react/prop-types */
 /* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable no-unused-vars */
 /* eslint-disable no-script-url */
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useContext, useEffect } from 'react'
 import { CartContext } from './context/ShoppingCartContext';
 const products = [
@@ -73,10 +74,10 @@ const Card = ({ product }) => {
                   </a>
                   </div>
                   <div>
-                    
-                      <button  onClick={() => addToCart(product)} className="bg-gray-200 text-gray-500 py-2 px-4 rounded-md btn2">
-                        أضف للسلة
-                      </button>   
+
+                    <button onClick={() => addToCart(product)} className="bg-gray-200 text-gray-500 py-2 px-4 rounded-md btn2">
+                      أضف للسلة
+                    </button>
                   </div>
                 </div>
               </div>
